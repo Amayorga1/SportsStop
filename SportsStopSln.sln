@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsStop", "SportsStop\SportsStop.csproj", "{3251F55C-F1BA-426A-A8FA-E9FF82D8F462}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportsStop", "SportsStop\SportsStop.csproj", "{3251F55C-F1BA-426A-A8FA-E9FF82D8F462}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsStop.Tests", "SportsStop.Tests\SportsStop.Tests.csproj", "{CD566166-B3F5-4B72-86B2-EEF0631B414D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportsStop.Tests", "SportsStop.Tests\SportsStop.Tests.csproj", "{CD566166-B3F5-4B72-86B2-EEF0631B414D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{3251F55C-F1BA-426A-A8FA-E9FF82D8F462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -44,5 +41,11 @@ Global
 		{CD566166-B3F5-4B72-86B2-EEF0631B414D}.Release|x64.Build.0 = Release|Any CPU
 		{CD566166-B3F5-4B72-86B2-EEF0631B414D}.Release|x86.ActiveCfg = Release|Any CPU
 		{CD566166-B3F5-4B72-86B2-EEF0631B414D}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4EDA930B-60B8-4193-83C2-28221FF68CD4}
 	EndGlobalSection
 EndGlobal

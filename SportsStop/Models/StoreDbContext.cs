@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
-using SportsStop.Models;
+﻿using Microsoft.EntityFrameworkCore;
+
 
 namespace SportsStop.Models
 {
