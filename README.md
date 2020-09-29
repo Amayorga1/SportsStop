@@ -10,3 +10,6 @@ This is a class project based on Adam Freeman's book PRO ASP.NET Core 3
 
 ## Shopping Cart 9-6
 ![9-6](https://raw.githubusercontent.com/Amayorga1/SportsStop/master/SportsStop%209-6%20.PNG)
+
+## Administration 10-9
+![10-9](https://github.com/Amayorga1/SportsStop/blob/master/SportStopAdmin.PNG?raw=true)
