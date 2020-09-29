@@ -12,9 +12,10 @@ namespace SportsStop.Models
         {
             context = ctx;
         }
+
         public IQueryable<Order> Orders => context.Orders
-         .Include(o => o.Lines)
-         .ThenInclude(l => l.Product);
+                            .Include(o => o.Lines)
+                            .ThenInclude(l => l.Product);
 
         public void SaveOrder(Order order)
         {
@@ -23,7 +24,7 @@ namespace SportsStop.Models
             {
                 context.Orders.Add(order);
             }
-           context.SaveChanges();
+            context.SaveChanges();
         }
     }
 }
